@@ -9,7 +9,7 @@ const TodoList = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentDate(new Date());
-    }, 1000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
